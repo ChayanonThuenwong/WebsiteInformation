@@ -258,3 +258,30 @@ body {
     }
     
 }
+
+
+@media (max-width: 600px) {
+  
+
+  .container-link-1 {
+    a {
+        font-size: 10px;
+    }
+  }
+  .link-background {
+    h2 {
+        font-size: 20px;
+    }
+  }
+
+  .link-background2 {
+    h2 {
+        font-size: 20px;
+    }
+  }
+
+  .container {
+    .text1 {
+        font-size: 3rem;
+    }
+}
