@@ -265,18 +265,24 @@ body {
 
   .container-link-1 {
     a {
-        font-size: 10px;
+        font-size: 13px;
+        white-space: nowrap; 
+        overflow: hidden;      
+        text-overflow: ellipsis;
     }
   }
   .link-background {
     h2 {
-        font-size: 20px;
+        font-size: 15px;
     }
   }
 
   .link-background2 {
     h2 {
-        font-size: 20px;
+        font-size: 15px;
+        white-space: nowrap;  
+        overflow: hidden;     
+        text-overflow: ellipsis;
     }
   }
 
@@ -284,4 +290,8 @@ body {
     .text1 {
         font-size: 3rem;
     }
+}
+
+.container-file {
+    padding: 20px;
 }
